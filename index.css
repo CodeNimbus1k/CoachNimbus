@@ -71,3 +71,12 @@ p {
     grid-column: 1;
     grid-row: 2;
 }
+
+.trn {
+    background-color: #ffffff8c;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 15px;
+    grid-column: 2;
+    grid-row: 2;
+}
