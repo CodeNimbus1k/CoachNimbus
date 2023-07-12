@@ -1,0 +1,73 @@
+body {
+    background-color: #3b9ec5;
+    background-image: url("wp11962132-rocket-league-desktop-4k-wallpapers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header {
+    background-color: rgb(49, 98, 155);
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 20px;
+}
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+h1 {
+    color: #ffffff8c;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+p {
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    grid-template-rows: repeat(6, 1fr); /* Six rows with equal height */
+    grid-gap: 10px; /* Gap between grid cells */
+    font-size: 20px;
+}
+
+.news {
+    background-color: #ffffff8c;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 15px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.streams {
+    background-color: #ffffff8c;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 15px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.community {
+    background-color: #ffffff8c;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 15px;
+    grid-column: 1;
+    grid-row: 2;
+}
